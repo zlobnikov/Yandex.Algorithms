@@ -72,12 +72,9 @@ function getNumbers(data) {
     return productOfMax >= productOfMin ? [max2, max1] : [min1, min2];
 }
 
-process.stdin.on('data', data => {
-    let result = getNumbers(data);
-    process.stdout.write(result.join(' '));
-    process.exit();
-});
+const fs = require('fs')
+let fileContent = fs.readFileSync('input.txt', 'utf8');
 
+const result = getNumbers(fileContent);
 
-// The platform shows «Wrong Answer» on the 14th test, but the solution is 
-// correct. Checked in Python.
+fs.writeFileSync('output.txt', result.join(' '));
