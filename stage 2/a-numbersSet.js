@@ -45,16 +45,15 @@ function countDifferentNumbers(data) {
     return counter;
 }
 
-// Solution #2
-function countDifferentNumbersOptimized(data) {
-    return (new Set(data.toString().trim().split(' '))).size;
-}
-
-process.stdin.on('data', data => {
-    let result = countDifferentNumbers(data);
-    process.stdout.write(result + '');
-    process.exit();
-});
+// // Solution #2
+// function countDifferentNumbers(data) {
+//     return (new Set(data.toString().trim().split(' '))).size;
+// }
 
 
-// Both the solutions fail test 9, but the similar Python solution passes.
+const fs = require('fs');
+let fileContent = fs.readFileSync('input.txt', 'utf8');
+
+const result = countDifferentNumbers(fileContent);
+
+fs.writeFileSync('output.txt', result + '');
