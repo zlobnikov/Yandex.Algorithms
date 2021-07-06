@@ -4,11 +4,11 @@ Algorithms trainings from Yandex. June 2021
 
 Source: https://yandex.ru/yaintern/algorithm-training
 
-Stage 0. Сложность, тестирование, особые случаи  
-Stage 1. Линейный поиск  
-Stage 2. Множества  
-Stage 3. Словари и сортировка подсчётом  
-Stage 4. Префиксные суммы и два указателя  
-Stage 5. Бинарный поиск  
-Stage 6. Сортировка событий  
-Stage 7. Деревья
+Contest 1. Complexity, Testing and Special Cases / Сложность, тестирование, особые случаи  
+Contest 2. Linear Search / Линейный поиск  
+Contest 3. Sets / Множества  
+Contest 4. Dictionaries and Counting Sort / Словари и сортировка подсчётом  
+Contest 5. Prefix Sums and Two-Pointer Technique / Префиксные суммы и два указателя  
+Contest 6. Binary Search / Бинарный поиск  
+Contest 7. Event sorting / Сортировка событий  
+Contest 8. Trees / Деревья
