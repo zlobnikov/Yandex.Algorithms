@@ -1,8 +1,9 @@
 # Yandex.Algorithms
-Algorithms trainings from Yandex. June 2021  
-Тренировки по алгоритмам от Яндекса. Июнь 2021
+Algorithm trainings from Yandex. June & September 2021  
+Тренировки по алгоритмам от Яндекса. Июнь и сентябрь 2021
 
-Source: https://yandex.ru/yaintern/algorithm-training
+Тренировки по алгоритмам 1.0 (июнь): https://yandex.ru/yaintern/algorithm-training_1  
+Тренировки по алгоритмам 2.0 (сентябрь): https://yandex.ru/yaintern/algorithm-training
 
 Contest 1. Complexity, Testing and Special Cases / Сложность, тестирование, особые случаи  
 Contest 2. Linear Search / Линейный поиск  
