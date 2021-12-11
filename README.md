@@ -13,3 +13,8 @@ Contest 5. Prefix Sums and Two-Pointer Technique / Префиксные сумм
 Contest 6. Binary Search / Бинарный поиск  
 Contest 7. Event sorting / Сортировка событий  
 Contest 8. Trees / Деревья
+
+# Preparation Kit
+
+Trial contest for an interview in Yandex:  
+https://contest.yandex.ru/contest/8458/enter/
